@@ -3,3 +3,4 @@ The Equation Solver is a Python class designed to solve various types of mathema
 
 # Features
 * Solves quadratic equations of the form ax**2+bx+c=0
+* a<sup>2</sup>x
