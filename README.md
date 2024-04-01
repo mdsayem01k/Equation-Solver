@@ -30,6 +30,7 @@ No installation is required. Simply clone or download the EquationSolver.py file
    ```python
    solver = EquationSolver()
 3. Use the desired method to solve the equation. The available methods are:
+   *   <b style="color:blue">`quadratic(a, b, c)`</b>: Solves the quadratic equation `ax^2 + bx + c = 0`.
    *  quadratic(a, b, c): Solves the quadratic equation ax^2 + bx + c = 0.
    *  two_le_2_var(a1, b1, c1, a2, b2, c2): Solves a system of two linear equations with two variables.
    *  three_le_3_var(a1, b1, c1, d1, a2, b2, c2, d2, a3, b3, c3, d3): Solves a system of three linear equations with three variables.
