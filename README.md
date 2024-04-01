@@ -23,8 +23,8 @@ No installation is required. Simply clone or download the EquationSolver.py file
    ```python
    solver = EquationSolver()
 3. Use the desired method to solve the equation. The available methods are:
-   *   <b style="color:blue">`quadratic(a, b, c)`</b>: Solves the quadratic equation `ax^2 + bx + c = 0`.
-   *   <b style="color:blue">two_le_2_var(a1, b1, c1, a2, b2, c2)</b>: Solves a system of two linear equations with two variables.
+   *  <b style="color:blue">quadratic(a, b, c)</b>: Solves the quadratic equation `ax^2 + bx + c = 0`.
+   *  <b style="color:blue">two_le_2_var(a1, b1, c1, a2, b2, c2)</b>: Solves a system of two linear equations with two variables.
    *  <b style="color:blue">three_le_3_var(a1, b1, c1, d1, a2, b2, c2, d2, a3, b3, c3, d3)</b>: Solves a system of three linear equations with three variables.
    *  <b style="color:blue">solve_cubic_equation(a, b, c, d)</b>: Solves the cubic equation ax^3 + bx^2 + cx + d = 0.
    *  <b style="color:blue">solve_exponential_equation(a, b)</b>: Solves the exponential equation a^x = b.
