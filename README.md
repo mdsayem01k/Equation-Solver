@@ -44,3 +44,7 @@ a, b, c = 2, -3, 1
 roots = solver.quadratic(a, b, c)
 print(f"Roots of the quadratic equation: {roots}")
 
+
+
+```diff
+- quadratic(a, b, c):
