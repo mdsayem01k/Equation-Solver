@@ -31,3 +31,10 @@ No installation is required. Simply clone or download the EquationSolver.py file
    *  solve_exponential_equation(a, b): Solves the exponential equation a^x = b.
    *  solve_logarithmic_equation(a, b): Solves the logarithmic equation x = log_a(b).
    *  solve_trig_equation(equation, variable): Solves a trigonometric equation for the given variable.
+  
+  For example, to solve the quadratic equation 2x^2 - 3x + 1 = 0, you can use the quadratic method:
+  ```python
+a, b, c = 2, -3, 1
+roots = solver.quadratic(a, b, c)
+print(f"Roots of the quadratic equation: {roots}")
+
