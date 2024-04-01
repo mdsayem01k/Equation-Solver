@@ -19,3 +19,7 @@ No installation is required. Simply clone or download the EquationSolver.py file
 1. Import the EquationSolver class:
    ```python
    from EquationSolver import EquationSolver
+
+2. Create an instance of the EquationSolver class:
+   ```python
+   solver = EquationSolver()
