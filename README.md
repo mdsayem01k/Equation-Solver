@@ -3,13 +3,19 @@ The Equation Solver is a Python class designed to solve various types of mathema
 
   ## Features
 
-- Solves quadratic equations of the form \(ax<sup>2</sup> + bx + c = 0\).
-- Solves systems of two simultaneous linear equations with two variables.
-- Solves systems of three simultaneous linear equations with three variables.
-- Solves cubic polynomial equations of the form \(ax<sup>3</sup> + bx<sub>2</sub> + cx + d = 0\).
-- Solves exponential equations of the form \(a<sup>x</sup> = b\).
-- Solves logarithmic equations of the form \(log<sub>a</sub>(x) = b\).
-- Solves trigonometric equations .
+<span style="color:blue">quadratic(a, b, c):</span> Solves the quadratic equation ax^2 + bx + c = 0.
+
+<span style="color:red">two_le_2_var(a1, b1, c1, a2, b2, c2):</span> Solves a system of two linear equations with two variables.
+
+<span style="color:green">three_le_3_var(a1, b1, c1, d1, a2, b2, c2, d2, a3, b3, c3, d3):</span> Solves a system of three linear equations with three variables.
+
+<span style="color:purple">solve_cubic_equation(a, b, c, d):</span> Solves the cubic equation ax^3 + bx^2 + cx + d = 0.
+
+<span style="color:orange">solve_exponential_equation(a, b):</span> Solves the exponential equation a^x = b.
+
+<span style="color:navy">solve_logarithmic_equation(a, b):</span> Solves the logarithmic equation x = log_a(b).
+
+<span style="color:darkorchid">solve_trig_equation(equation, variable):</span> Solves a trigonometric equation for the given variable.
 
 
 ## Installation
