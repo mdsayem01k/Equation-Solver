@@ -8,5 +8,5 @@ The Equation Solver is a Python class designed to solve various types of mathema
 - Solves systems of three simultaneous linear equations with three variables.
 - Solves cubic polynomial equations of the form \(ax<sup>3</sup> + bx<sub>2</sub> + cx + d = 0\).
 - Solves exponential equations of the form \(a<sup>x</sup> = b\).
-- Solves logarithmic equations of the form \(\log_a(x) = b\).
-- Solves trigonometric equations of the form \(\sin(x) = \text{value}\), \(\cos(x) = \text{value}\), and \(\tan(x) = \text{value}\).
+- Solves logarithmic equations of the form \(\log<sub>a</sub>(x) = b\).
+- Solves trigonometric equations .
